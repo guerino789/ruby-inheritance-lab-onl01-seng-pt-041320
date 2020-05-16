@@ -6,11 +6,11 @@ class Student < User
   end 
   
   def knowledge
-    @knowledge << knowledge
+    @knowledge 
   end 
   
-  def learn(string)
-    
+  def learn(knowledge)
+    @knowledge << knowledge
   end 
   
 
