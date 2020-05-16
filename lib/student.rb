@@ -1,9 +1,11 @@
 class Student < User 
   
   def initialize
-    new = []
+    @new = []
   end 
   
-  
+  def new
+    @new 
+  end 
 
 end
