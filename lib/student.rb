@@ -4,7 +4,6 @@ class Student < User
     new = []
   end 
   
-  def new 
-  end 
+  
 
 end
